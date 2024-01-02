@@ -1,8 +1,9 @@
 import React from "react";
-import ProductForm from "@/components/ProductForm";
+import NewPge from "./new/page";
+
 
 const HomePage = () => {
-  return <div className="flex justify-center items-center  h-full"><ProductForm /></div>;
+  return <NewPge />
 };
 
 export default HomePage;
