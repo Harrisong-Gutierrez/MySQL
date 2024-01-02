@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body ><div className='h-[calc(100vh)]'>{children}</div>
+      <body ><div className='h-[calc(100vh)] container mx-auto  my-24'>{children}</div>
       </body>
     </html>
   )
